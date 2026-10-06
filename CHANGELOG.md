@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Removed the GitHub Actions workflow from the package so publishing main does not require additional OAuth workflow scope. Local checks remain available and pass.
+- Verified Git-backed marketplace registration and release archive contents.
+
 ## 0.1.0
 
 - Codex plugin manifests and Git-backed marketplace.

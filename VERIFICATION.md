@@ -1,4 +1,4 @@
-# Verification for 0.1.0
+# Verification for 0.1.1
 
 Verified on Windows on 2026-10-06:
 
@@ -10,4 +10,4 @@ Verified on Windows on 2026-10-06:
 - A repeated start kept the same PID. Another running installation caused an explicit refusal, without stopping it.
 - Stop waits for actual process exit before reporting status. The pre-existing upstream installation was restored after the smoke test.
 
-These checks prove packaging, lifecycle behavior and a live Discord RPC connection. They do **not** prove the card's exact visual appearance or another user's view; that requires looking at the Discord profile. No screenshot of the rendered card was captured. GitHub CI results and published release validation are recorded in release notes.
+These checks prove packaging, lifecycle behavior and a live Discord RPC connection. They do **not** prove the card's exact visual appearance or another user's view; that requires looking at the Discord profile. No screenshot of the rendered card was captured. Version 0.1.1 contains packaging changes only; the RPC lifecycle implementation tested above is unchanged. No GitHub CI ran: the workflow was removed after GitHub refused branch publication without OAuth workflow scope. Local checks remain available and passed.
