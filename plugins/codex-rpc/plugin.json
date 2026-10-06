@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "codex-rpc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage Codex Discord Rich Presence on Windows: logo, active model and elapsed time.",
   "author": { "name": "etheriumflipper", "url": "https://github.com/etheriumflipper" },
   "repository": "https://github.com/etheriumflipper/codex-rpc-plugin",

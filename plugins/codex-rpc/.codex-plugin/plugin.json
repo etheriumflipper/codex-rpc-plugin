@@ -1,6 +1,6 @@
 {
   "name": "codex-rpc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage Codex Discord Rich Presence on Windows: logo, model and time.",
   "author": { "name": "etheriumflipper" },
   "repository": "https://github.com/etheriumflipper/codex-rpc-plugin",
