@@ -1,0 +1,10 @@
+{
+  "name": "etheriumflipper-rpc",
+  "interface": { "displayName": "Codex RPC" },
+  "plugins": [{
+    "name": "codex-rpc",
+    "source": { "source": "local", "path": "./plugins/codex-rpc" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+    "category": "Productivity"
+  }]
+}

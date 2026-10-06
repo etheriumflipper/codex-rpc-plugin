@@ -1,0 +1,16 @@
+{
+  "name": "codex-rpc",
+  "version": "0.1.0",
+  "description": "Manage Codex Discord Rich Presence on Windows: logo, model and time.",
+  "author": { "name": "etheriumflipper" },
+  "repository": "https://github.com/etheriumflipper/codex-rpc-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex RPC",
+    "shortDescription": "Show your Codex model in Discord",
+    "developerName": "etheriumflipper",
+    "category": "Productivity",
+    "defaultPrompt": ["Enable Codex RPC in Discord with model and time."]
+  }
+}

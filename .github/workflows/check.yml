@@ -1,0 +1,12 @@
+name: Check plugin
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate plugin and offline lifecycle
+        shell: pwsh
+        run: ./scripts/check.ps1

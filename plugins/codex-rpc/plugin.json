@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-rpc",
+  "version": "0.1.0",
+  "description": "Manage Codex Discord Rich Presence on Windows: logo, active model and elapsed time.",
+  "author": { "name": "etheriumflipper", "url": "https://github.com/etheriumflipper" },
+  "repository": "https://github.com/etheriumflipper/codex-rpc-plugin",
+  "license": "MIT",
+  "keywords": ["codex", "discord", "rich-presence", "windows"],
+  "extensions": { "com.openai": { "interface": {
+    "displayName": "Codex RPC",
+    "shortDescription": "Show your Codex model in Discord",
+    "longDescription": "Install and manage the pinned Codex RPC tray runtime. Show the Codex logo, detected model and elapsed time. Usage is hidden by default; the upstream runtime can include the project folder name. Windows x64 only.",
+    "developerName": "etheriumflipper",
+    "category": "Productivity",
+    "capabilities": ["Install RPC", "Start and stop RPC", "Check Discord connection"],
+    "defaultPrompt": ["Enable Codex RPC in Discord with model and time.", "Check Codex RPC status.", "Stop Codex RPC."]
+  } } }
+}
